@@ -3,6 +3,13 @@ application:
   r2dbc:
     schema: scripts/schema-mssql.sql
     data: scripts/data-mssql.sql
+azure:
+  keyvault:
+    enabled: true
+    uri: 'https://akvbackendbcp.vault.azure.net/'
+    client-id: e244b687-149b-4cfb-95e1-1c25f14ae621
+    tenant-id: 94996122-5d19-4de9-8da5-d915ed65f05c
+    client-key: R4eX-rSu1h.ulZ7ialLf0BZu3~4Ke7~XnT
 #  db:
 #    name: dbTest
 #    scripts:
