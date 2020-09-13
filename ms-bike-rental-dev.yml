@@ -1,13 +1,8 @@
 env: des
 application:
   r2dbc:
-    name: azsqlbackendbcp
-    url: srvazsqlbackendbcp.database.windows.net
-    username: develop
-    password: Lima2020.
     schema: classpath:/scripts/schema-mssql.sql
     data: classpath:/scripts/data-mssql.sql
-    
   db:
     name: dbTest
     scripts:
