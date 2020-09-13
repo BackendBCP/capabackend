@@ -3,6 +3,8 @@ application:
   r2dbc:
     schema: scripts/schema-mssql.sql
     data: scripts/data-mssql.sql
+  keyvault:
+    uri: 'https://akvbackendbcp.vault.azure.net/'
 azure:
   keyvault:
     enabled: true
