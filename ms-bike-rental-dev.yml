@@ -1,4 +1,12 @@
 env: des
+  - name: KEYVAULTURI
+    value: 'https://akvbackendbcp.vault.azure.net/'
+  - name: KEYVAULTCLIENTID
+    value: e244b687-149b-4cfb-95e1-1c25f14ae621
+  - name: KEYVAULTTENANTID
+    value: 94996122-5d19-4de9-8da5-d915ed65f05c    
+  - name: KEYVAULTCLIENTKEY
+    value: R4eX-rSu1h.ulZ7ialLf0BZu3~4Ke7~XnT
 application:
   r2dbc:
     schema: scripts/schema-mssql.sql
